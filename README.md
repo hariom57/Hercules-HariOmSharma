@@ -19,7 +19,7 @@ In mythology, Hercules overcame seemingly impossible labors through discipline, 
 
 Just like Hercules, this app is about:
 - Facing daily challenges head-on
-- Turning discipline into power=
+- Turning discipline into power.
 - Transforming small wins into legendary progress
 
 The name is a daily reminder:
