@@ -18,15 +18,11 @@ I chose the name Hercules because it stands for legendary strength, perseverance
 In mythology, Hercules overcame seemingly impossible labors through discipline, courage, and resilience—qualities at the heart of personal growth and habit-building.
 
 Just like Hercules, this app is about:
-
-Facing daily challenges head-on
-
-Turning discipline into power
-
-Transforming small wins into legendary progress
+- Facing daily challenges head-on
+- Turning discipline into power=
+- Transforming small wins into legendary progress
 
 The name is a daily reminder:
-
 **Every habit you conquer is a labor that makes you stronger.**
 
 ---
