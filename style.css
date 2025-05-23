@@ -252,7 +252,7 @@
   }
   
   .level-card.active {
-    border: 2px solid var(--accent);
+    border: 2px solid var(--accent2);
     color: var(--accent);
     font-weight: bold;
   }
