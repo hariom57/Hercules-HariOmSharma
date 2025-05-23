@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.2/chart.umd.js"></script>
+  <title>Hercules</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>HERCULES-Habit Warrior</h1>
+      <p class="subtitle">Level up your life</p>
+    </header>
+
+    <div class="content">
+      <section class="challenge-card">
+        <h2>Challenge 4.01</h2>
+        <h3>The Warrior</h3>
+        <div class="button-container">
+          <button id="prevDayBtn">Previous Day</button>
+          <button id="nextDayBtn">Next Day</button>
+        </div>
+        <br>
+        <div class="date-display" id="dateDisplay"></div>
+        <br>
+        <ul id="taskList"></ul>
+      </section>
+      <section class="skills-section">
+          <h3>Skills</h3>
+          <canvas id="radarChart" width="320" height="320"></canvas>
+          <div class="rating">
+              <span>Physical Rating</span>
+              <span id="physicalRating">012</span>
+            </div>
+        </section>
+        
+    <div class="streak">
+      <section class="progress-section">
+        <div class="streak-box">
+          <span>🔥</span>
+          <span id="streakDisplay">Current streak: 0 days</span>
+        </div>
+        <div class="calendar" id="calendar"></div>
+      </section>
+
+      <section class="level-section">
+        <h3>The Path to the KING</h3>
+        <div class="levels" id="levels"></div>
+      </section>
+    </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

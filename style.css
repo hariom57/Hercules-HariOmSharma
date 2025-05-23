@@ -1,0 +1,289 @@
+:root {
+    --bg-main: #181a1b;
+    --bg-card: #232526;
+    --accent: #00ffb3;
+    --accent2: #ffd600;
+    --danger: #ff0000;
+    --success: #2bff00;
+    --text-main: #fff;
+    --shadow: 0 4px 32px #000a;
+  }
+  
+  body {
+    background: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 32px auto;
+    background: var(--bg-card);
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  h1 {
+    color: var(--accent);
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+  }
+  
+  .subtitle {
+    color: var(--accent2);
+    font-size: 1rem;
+    margin: 4px 0 0 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #000;
+    border-radius: 24px;
+    box-shadow: 0 2px 8px #0005;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  .challenge-card,
+  .skills-section,
+  .level-section {
+    background: var(--bg-main);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px #0005;
+    padding: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .challenge-card {
+    min-width: 300px;
+  }
+  
+  .challenge-card h2 {
+    color: var(--accent);
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+  
+  .challenge-card h3,
+  .skills-section h3,
+  .level-section h3 {
+    color: var(--accent2);
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+  
+  #prevDayBtn,
+  #nextDayBtn {
+    background: var(--accent);
+    color: var(--bg-main);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  #prevDayBtn:hover,
+  #nextDayBtn:hover {
+    background: var(--accent2);
+    color: var(--bg-card);
+  }
+  
+  #taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-name {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .task-streak {
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 0.85rem;
+    color: var(--accent2);
+    margin-left: 10px;
+  }
+  
+  #taskList input[type="checkbox"] {
+    accent-color: var(--accent);
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .skills-section {
+    padding: 18px;
+    margin-bottom: 24px;
+  }
+  
+  #radarChart {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .rating {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: var(--danger);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rating span:last-child {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--danger);
+  }
+  
+  .progress-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .streak-box {
+    background: var(--bg-card);
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .calendar {
+    display: flex;
+    gap: 4px;
+    margin-top: 6px;
+    align-items: center;
+  }
+  
+  .calendar-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #333;
+    display: inline-block;
+    border: 1px solid #222;
+  }
+  
+  .calendar-dot.done {
+    background: var(--success);
+  }
+  .calendar-dot.missed {
+    background: var(--danger);
+  }
+  .calendar-dot.today {
+    border: 5px solid var(--accent2);
+  }
+  
+  .level-section {
+    padding: 18px;
+    text-align: center;
+    max-width: min-content;
+  }
+  
+  .levels {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #393939;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 12px;
+    border-radius: 10px;
+  }
+  
+  .level-card {
+    background: var(--bg-card);
+    border-radius: 10px;
+    padding: 10px 12px;
+    color: var(--text-main);
+    min-width: 80px;
+    font-size: 0.95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+  }
+  
+  .level-card.active {
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    font-weight: bold;
+  }
+  
+  .level-card .wolf-icon {
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+  }
+  
+  .date-display {
+    margin: 0 auto 8px auto;
+    color: var(--accent2);
+    font-weight: bold;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      max-width: 98vw;
+      padding: 8px 2vw 24px 2vw;
+    }
+    .content {
+      padding: 8px;
+      gap: 8px;
+    }
+    .challenge-card {
+      min-width: unset;
+      padding: 12px;
+    }
+    .skills-section,
+    .level-section {
+      padding: 10px;
+    }
+  }
+  
