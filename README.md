@@ -7,8 +7,8 @@
 
 ## 🚀 Why I Built Hercules
 
-I needed a productivity tool that truly reflected my habits and growth across multiple life domains—something visual, motivating, and customizable.  
-Inspired by the DAWG app’s spider chart but unable to find a tool that fit my needs, I decided to build my own.
+I needed a productivity tool that truly reflected my habits and growth across multiple life domains—something visual, motivating, and customizable. Something that would motivate me, a productivity tool like none other.  
+Inspired by the DAWG app’s spider chart. I was unable to find a similar tool that fit my needs, so I decided to build my own!
 
 ---
 
